@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Patrick+Hand&display=swap');
+
+.home-title {
+    font-family: "Patrick Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 div {
     max-width: 1600px;
 }
@@ -10,6 +18,7 @@ nav a{
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -35,6 +44,11 @@ main section{
 
 body {
     background-color: aliceblue;
+    font-size: 22px;
+    font-family: Oswald, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
@@ -50,12 +64,20 @@ nav a:hover {
     background-color: aliceblue;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: aliceblue;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -70,11 +92,14 @@ nav a:hover {
 
 .msg {
     background-color: aliceblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: gray;
     color: bisque;
+    padding: 25px 50px;
 }
 
 .home-title {
@@ -82,15 +107,18 @@ footer {
 }
 
 h4 {
-    color: aqua;
+    color: darkslategray;
 }
 
 .msg h2{
     color: black;
+    font-family: Oswald, Helvetica, sans-serif;
 }
 
 .msg p{
     color: black;
+    font-size: .8em ;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -104,10 +132,13 @@ footer a:hover{
 
 .logo {
     width: 80px;
+    border-radius: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+    border-radius: 15px;
 }
 
 #hero-img{
@@ -116,8 +147,29 @@ footer a:hover{
 
 footer p{
     font-size: 1.2em;
+    margin-top: 200px;
 }
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_ling {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid darkslategray;
 }
