@@ -259,8 +259,75 @@ main section img {
     border: 10px solid darkslategray;
 }
 
+.main_fork{
+    margin-bottom: 100px;
+}
+.main_fork h2{
+    margin-left: -65%;
+}
 
-@media screen and (max-width: 900px) {
+.main_fork img{
+    margin-left: -45%;
+    height: 400px;
+    z-index: -1;
+}
+
+.main_fork p{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -23%;
+    margin-bottom: 500px;
+    width: 800px;
+    background-color: ivory;
+    z-index: 1;
+}
+
+
+.desolation{
+    background-color: lightsteelblue;
+    margin: 100px;
+}
+
+.desolation h2{
+    margin-left: 65%;
+}
+
+.desolation img{
+    margin-left: 25%;
+}
+
+.desolation p{
+    position: absolute;
+    width: 800px;
+    margin-right: 550px;
+    margin-top: -25%;
+    margin-bottom: 350px;
+    background-color: ivory;
+    z-index: 1;
+}
+
+.grand_canyon h2{
+    margin-left: -75%;
+}
+
+.grand_canyon img{
+    margin-left: -32%;
+    z-index: -1;
+}
+
+.grand_canyon p{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -25%;
+    margin-bottom: 250px;
+    width: 800px;
+    background-color: ivory;
+    opacity: 100%;
+    z-index: 1;
+}
+
+
+/* @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -300,4 +367,4 @@ main section img {
     footer {
         margin-top: 25px;
     }
-}
+} */
