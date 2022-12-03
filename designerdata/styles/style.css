@@ -1,3 +1,4 @@
+
 header {
     background-color: #386FA4;
     display: grid;
@@ -31,14 +32,26 @@ footer {
     align-items: center;
 }
 
-section{
+.charts-card{
     display: grid;
     grid-template-columns: 45% 10% 45%;
     grid-template-rows: repeat(6, 120px);
-
 }
 
-main img{
+.question-card {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-rows: repeat(6, 120px);
+}
+
+.stonks-card {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-rows: repeat(6, 120px);
+}
+
+
+.main-mainpage img{
     grid-column: 1/4;
     grid-row: 1/7;
     min-width: max-content;
@@ -132,3 +145,42 @@ main p{
     background: lightcoral;
     color: white;
   }
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 540px);
+    grid-template-rows: repeat(6, 200px);
+    align-items: center;
+    justify-content: center;
+}
+
+.main-grid img{
+    max-width: 540px;
+    align-items: center;
+}
+
+.main-grid p {
+    position: static;
+    grid-row: 4/6;
+}
+
+.rise-card {    
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.stonks2-card {
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+
+.archive-card {
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+.main-grid p{
+    display: block;
+    justify-self: center;
+    margin-left: -15px;
+}
