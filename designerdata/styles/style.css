@@ -184,3 +184,15 @@ main p{
     justify-self: center;
     margin-left: -15px;
 }
+
+.contactp{
+    margin-top: -50%;
+}
+
+.social{
+    margin-top: -30%;
+    margin-left: 45%;
+    margin-bottom: 500px;
+    color: azure;
+    justify-content: center;
+}
