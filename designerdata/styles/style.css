@@ -55,6 +55,7 @@ footer {
     grid-column: 1/4;
     grid-row: 1/7;
     min-width: max-content;
+    background-color: #55ACEE;
 }
 
 main div{
@@ -99,6 +100,7 @@ main p{
     font-size: x-large;
     border-radius: 10%;
     border: 10px solid #386FA4;
+    box-shadow: 5px 5px 10px darkslategray
 }
 
 .question-card h2{
@@ -157,11 +159,15 @@ main p{
 .main-grid img{
     max-width: 540px;
     align-items: center;
+    padding: 10px;
 }
 
 .main-grid p {
     position: static;
     grid-row: 4/6;
+    box-shadow: 5px 5px 10px darkslategray;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .rise-card {    
@@ -183,6 +189,7 @@ main p{
     display: block;
     justify-self: center;
     margin-left: -15px;
+    box-shadow: 5px 5px 10px darkslategray
 }
 
 .contactp{
@@ -195,4 +202,8 @@ main p{
     margin-bottom: 500px;
     color: azure;
     justify-content: center;
+}
+
+.contact_main{  
+   justify-content: center;
 }
